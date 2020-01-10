@@ -1,5 +1,5 @@
 {% extends "blog/base.html" %}
- {% block body_block %}
+ {% block content %}
 {% for post in posts %}
 <div class="post">
   <p class='date'>created: {{post.created_date|date:'d-m-Y'}}</p>
